@@ -1,0 +1,26 @@
+# Python / notebook caches
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Generated datasets, predictions, and training artifacts
+*.csv
+*.xlsx
+*.xls
+*.h5
+*.keras
+*.pkl
+*.joblib
+*.npy
+*.npz
+checkpoints/
+models/
+logs/
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
